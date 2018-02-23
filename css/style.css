@@ -1,0 +1,36 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+}
+
+.ev-search-form{
+	font-size: 0;
+}
+.ev-container{
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 0 20px;
+	display: inline-block;
+}
+.ev-search-form > button {
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	vertical-align: middle;
+	border:0;
+	background: none;
+	border-radius: 0;
+
+}
+
+.ev-search-form > [type="search"]{
+	font-size: 95px;
+	display: inline-block;
+	width: calc(100% - 80px);
+	vertical-align: middle;
+
+}
+
+
